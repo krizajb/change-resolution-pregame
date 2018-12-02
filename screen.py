@@ -3,7 +3,9 @@ from __future__ import print_function
 import subprocess
 import sys
 
-
+"""
+https://stackoverflow.com/a/20996948/410624
+"""
 class Screen(object):
     @classmethod
     def set(cls, width=None, height=None, depth=32):
